@@ -48,6 +48,11 @@ import tripguide from "./tripguide.png";
 import embedding from "./embedding.png";
 import salesbot from "./salesbot.png";
 import aiScraper from "./AiScraper.png";
+import ai_teacher from "./ai_teacher.png";
+import imaginify from "./imaginify.png";
+import vscode_extension from "./vscode_extension.png";
+
+
 
 
 
@@ -92,5 +97,8 @@ export {
   blender,
   embedding,
   salesbot,
+  ai_teacher,
   aiScraper,
+  imaginify,
+  vscode_extension,
 };

@@ -35,6 +35,9 @@ import {
     blender,
     embedding,
     salesbot,
+    ai_teacher,
+    imaginify,
+    vscode_extension,
     aiScraper,
   } from "../assets";
   
@@ -199,6 +202,60 @@ import {
   
   const projects = [
     {
+      name: "AI Voiced Educational Companion SaaS",
+      description:
+        "SaaS web app to allow user to create chat sessions to learn specific topics(coding, math, economics, etcs), integrated user authentication, Store user data and chat sessions in PostgreSQL database, and integrated Payment methods",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GPT-4",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Clerk",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: ai_teacher,
+      source_code_link: "https://github.com/EricFeng20001120/ai_teacher",
+    },
+    {
+      name: "AI-powered Image Generation SaaS",
+      description:
+        "SaaS platform utilizing Next.js, Postgresql, and Stripe. Implemented features including image generation, user authentication, and subscription service",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Diffusion Models",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Clerk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "green-text-gradient",
+        },
+      ],
+      image: imaginify,
+      source_code_link: "https://github.com/EricFeng20001120/Imaginify",
+    },
+    {
       name: "Canadian Tire Product and Store Embeddings",
       description:
         "Developed product and store embeddings for categorization using product, store, and customer data; Conducted research on pre-trained embeddings and customized deep learning solutions, resulting in a 4% increase in multi-class classification accuracy compared to the baseline model",
@@ -215,6 +272,7 @@ import {
       image: embedding,
       source_code_link: "https://github.com/EricFeng20001120/Product_Embedding_CanadianTire",
     },
+    
     {
       name: "LLM Sales-Bot with RAG",
       description:
@@ -239,6 +297,27 @@ import {
       ],
       image: salesbot,
       source_code_link: "https://github.com/EricFeng20001120/GPT3_5FinetunedSalesChatBot",
+    },
+    {
+      name: "Vscode Extension for Code inline suggestion, Codebase Summarization",
+      description:
+        "Vscode extension for codebase explanation, incline suggestions, and chatbot to answer inquiries on current codebase with open source LLM.",
+      tags: [
+        {
+          name: "Nodejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Ollama",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GPT-4",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: vscode_extension,
+      source_code_link: "https://github.com/EricFeng20001120/vscode_GenAI_Extension",
     },
     {
       name: "AI Web Scrapper",
