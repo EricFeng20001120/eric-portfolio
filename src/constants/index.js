@@ -35,7 +35,7 @@ import {
     blender,
     embedding,
     salesbot,
-    ai_teacher,
+    oabuddy,
     imaginify,
     vscode_extension,
     aiScraper,
@@ -66,7 +66,7 @@ import {
       icon: mobile,
     },
     {
-      title: "3D Artist",
+      title: "AI/ML Engineer",
       icon: creator,
     },
   ];
@@ -128,7 +128,7 @@ import {
   
   const experiences = [
     {
-      title: "Co-Founder & Data Developer & 3D Modeler",
+      title: "Data Developer & Product Desginer",
       company_name: "Red Coral at University of Toronto Hatchery",
       icon: Hatchery,
       iconBg: "#383E56",
@@ -202,12 +202,16 @@ import {
   
   const projects = [
     {
-      name: "AI Voiced Educational Companion SaaS",
+      name: "OABuddy, AI-powered Technical Interview Prep Platform",
       description:
-        "SaaS web app to allow user to create chat sessions to learn specific topics(coding, math, economics, etcs), integrated user authentication, Store user data and chat sessions in PostgreSQL database, and integrated Payment methods",
+        "SaaS platform to scrape and generate the latest technical interview questions from forums (Reddit, LeetCode), using multi-step LLMs for context-aware generation; grew to 100+ users within 1 month of launch.",
       tags: [
         {
           name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
@@ -215,16 +219,29 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "GPT-4",
+          name: "Gemini",
           color: "pink-text-gradient",
         },
         {
           name: "Clerk",
           color: "blue-text-gradient",
         },
+        {
+          name: "Airflow",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "green-text-gradient",
+        }
+
       ],
-      image: ai_teacher,
-      source_code_link: "https://github.com/EricFeng20001120/ai_teacher",
+      image: oabuddy,
+      source_code_link: "https://www.oabuddy.ca/",
     },
     {
       name: "AI-powered Image Generation SaaS",
